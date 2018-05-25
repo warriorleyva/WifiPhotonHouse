@@ -1,0 +1,19 @@
+﻿<Properties StartupConfiguration="{669D96AB-A009-44A0-93EB-CD0E9B643878}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="WifiPhotonHouse/VentiladorPage.xaml.cs">
+    <Files>
+      <File FileName="WifiPhotonHouse/BombaPage.xaml" Line="15" Column="1" />
+      <File FileName="WifiPhotonHouse/MainPage.xaml.cs" Line="1" Column="1" />
+      <File FileName="WifiPhotonHouse/VentiladorPage.xaml.cs" Line="30" Column="10" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.WifiPhotonHouse.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.17A188C1-DB9A-48E4-A5C3-4BDC2AB2DCAE">
+    <MonoDevelop.MacDev.AppleDevelopmentTeam />
+  </MonoDevelop.Ide.ItemProperties.WifiPhotonHouse.iOS>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.WifiPhotonHouse.Droid PreferredExecutionTarget="Android.Android_Accelerated_Nougat" AndroidDesignerPreferredTheme="Theme.DeviceDefault.NoActionBar.Fullscreen" />
+  <MultiItemStartupConfigurations />
+</Properties>

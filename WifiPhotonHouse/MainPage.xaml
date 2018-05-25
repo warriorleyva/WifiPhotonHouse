@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             x:Class="WifiPhotonHouse.MainPage"
+             Title="Página principal">
+
+    <Grid RowSpacing="5"
+          Padding="10">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="3*"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+        </Grid.RowDefinitions>
+
+        <BoxView Grid.Row="0" Grid.ColumnSpan="3"  Color="#00BF9A"></BoxView>
+        <Label x:Name="Temp_label"  Grid.Row="0" Grid.ColumnSpan="3"  FontSize="120" FontAttributes="Bold" 
+               VerticalOptions="Center" HorizontalOptions="Center"></Label>
+
+
+        <Button Grid.Row="1" Grid.Column="0" BackgroundColor="#00BF9A" Image="lightbulb.png" Text="FOCOS" 
+                FontSize="18" FontAttributes="Bold" TextColor="White" Clicked="Focos_Button"></Button>
+        <Button Grid.Row="1" Grid.Column="1" BackgroundColor="#00BF9A"  Text="ABANICO" 
+                FontSize="18" FontAttributes="Bold" TextColor="White" Clicked="Temp_Button"></Button>
+        <Button Grid.Row="1" Grid.Column="2" BackgroundColor="#00BF9A" Image="lightbulb.png" Text="BOMBA" 
+                FontSize="18" FontAttributes="Bold" TextColor="White" Clicked="Time_Button"></Button>
+    </Grid>
+
+</ContentPage>

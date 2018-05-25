@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             x:Class="WifiPhotonHouse.FocosPage"
+             Title="Focos">
+
+    <TableView RowHeight="80">
+        <TableRoot>
+            <TableSection>
+                <ViewCell>
+                    <StackLayout Orientation="Horizontal" Padding="20, 0">
+                        <Label Text="CUARTO" FontSize="20" FontAttributes="Bold" HorizontalOptions="StartAndExpand" VerticalOptions="Center"></Label>
+                        <Switch Toggled="LightBulb1_OnToggled" x:Name="LightBulb1_switch"></Switch>
+                    </StackLayout>
+                </ViewCell>
+                <ViewCell>
+                    <StackLayout Orientation="Horizontal" Padding="20, 0">
+                        <Label Text="COMEDOR" FontSize="20" FontAttributes="Bold" HorizontalOptions="StartAndExpand" VerticalOptions="Center"></Label>
+                        <Switch Toggled="LightBulb2_OnToggled" x:Name="LightBulb2_switch" ></Switch>
+                    </StackLayout>
+                </ViewCell>
+                <ViewCell>
+                    <StackLayout Orientation="Horizontal" Padding="20, 0">
+                        <Label Text="COCINA" FontSize="20" FontAttributes="Bold" HorizontalOptions="StartAndExpand" VerticalOptions="Center"></Label>
+                        <Switch Toggled="LightBulb3_OnToggled" x:Name="LightBulb3_switch"></Switch>
+                    </StackLayout>
+                </ViewCell>
+                <ViewCell>
+                    <StackLayout Orientation="Horizontal" Padding="20, 0">
+                        <Label Text="PATIO" FontSize="20" FontAttributes="Bold" HorizontalOptions="StartAndExpand" VerticalOptions="Center"></Label>
+                        <Switch Toggled="LightBulb4_OnToggled" x:Name="LightBulb4_switch"></Switch>
+                    </StackLayout>
+                </ViewCell>
+                <ViewCell>
+                    <StackLayout Orientation="Horizontal" Padding="20, 0">
+                        <Label Text="GARAGE" FontSize="20" FontAttributes="Bold" HorizontalOptions="StartAndExpand" VerticalOptions="Center"></Label>
+                        <Switch Toggled="LightBulb5_OnToggled" x:Name="LightBulb5_switch"></Switch>
+                    </StackLayout>
+                </ViewCell>
+                <ViewCell>
+                    <StackLayout Orientation="Horizontal" Padding="20, 0">
+                        <Label Text="BAÑO" FontSize="20" FontAttributes="Bold" HorizontalOptions="StartAndExpand" VerticalOptions="Center"></Label>
+                        <Switch Toggled="LightBulb6_OnToggled" x:Name="LightBulb6_switch"></Switch>
+                    </StackLayout>
+                </ViewCell>
+                <ViewCell>
+                    <StackLayout Orientation="Horizontal" Padding="20, 0">
+                        <Label Text="SALA" FontSize="20" FontAttributes="Bold" HorizontalOptions="StartAndExpand" VerticalOptions="Center"></Label>
+                        <Switch Toggled="LightBulb7_OnToggled" x:Name="LightBulb7_switch"></Switch>
+                    </StackLayout>
+                </ViewCell>
+            </TableSection>
+        </TableRoot>
+    </TableView>
+    
+</ContentPage>

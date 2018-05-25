@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             x:Class="WifiPhotonHouse.BombaPage"
+             Title="Tiempo de la Bomba">
+
+    <StackLayout VerticalOptions="Center" Spacing="50" Padding="20">
+        <Label Text="Ingrese el tiempo de activación:" FontSize="22" FontAttributes="Bold" HorizontalOptions="Center"></Label>
+        <Entry x:Name="timeEntry" Placeholder="Minutos" Keyboard="Numeric" FontSize="20" HorizontalOptions="Center" ></Entry>
+        <Button Text="Aceptar" TextColor="White" FontSize="25" BackgroundColor="#008975" BorderRadius="10" 
+                Clicked="AcceptButton_Clicked"></Button>
+    </StackLayout>
+    
+</ContentPage>
